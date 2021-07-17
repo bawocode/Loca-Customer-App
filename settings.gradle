@@ -1,2 +1,3 @@
 rootProject.name = "Loca App"
 include ':app'
+include ':myapplication'

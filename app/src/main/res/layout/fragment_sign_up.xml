@@ -168,7 +168,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:orientation="horizontal"
-        android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -179,9 +178,9 @@
             android:id="@+id/cardView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="25dp"
             app:cardCornerRadius="24dp"
             app:cardElevation="4dp"
+            android:layout_margin="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent">
 
@@ -189,6 +188,7 @@
                 android:id="@+id/google_logo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="start"
                 android:padding="26dp"
                 android:src="@drawable/ic_groupgoogle_icon" />
         </androidx.cardview.widget.CardView>
@@ -198,6 +198,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
+            android:layout_marginTop="7dp"
             app:cardCornerRadius="24dp"
             app:cardElevation="4dp">
 
@@ -205,7 +206,8 @@
                 android:id="@+id/facebook_logo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="25dp"
+                android:padding="26dp"
+                android:layout_gravity="end"
                 android:src="@drawable/ic_groupfacebook_icon" />
         </androidx.cardview.widget.CardView>
 

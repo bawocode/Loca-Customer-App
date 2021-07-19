@@ -17,6 +17,9 @@
     <string name="send">Send</string>
     <string name="home">Home</string>
     <string name="fashion_sale">Fashion\nsale</string>
+    <string name="new_text">New</string>
+    <string name="summer_sales">SUMMER SALES</string>
+    <string name="up_to_50_off">Up to 50% off</string>
 
 
 </resources>
